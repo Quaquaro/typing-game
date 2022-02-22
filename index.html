@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Type game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Typing game!</h1>
+    <p>Train your typing skills with a quote from Sherlock Holmes. Click **start** to begin!</p>
+    <p id="quote"></p> <!--Here the quote will be displayed-->
+
+    <div>
+        <input type="text" aria-label="current word" id="typed-value"> <!--textbox for typing-->
+        <button type="button" id="start" class="btnStart">Start</button>
+    </div>
+    <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="message"></p><!--Here the message will be displayed-->
+            </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
